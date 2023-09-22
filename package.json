@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://HusseinAbdulimam.github.io/movix",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -13,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "homepage": "https://HusseinAbdulimam.github.io/movix",
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.2",
     "dayjs": "^1.11.7",
